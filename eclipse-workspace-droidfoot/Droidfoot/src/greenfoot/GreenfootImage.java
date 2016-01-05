@@ -542,7 +542,7 @@ public class GreenfootImage {
 		matrix.setRotate(degrees, width / 2, height / 2);
 		image = Bitmap.createBitmap(image, 0, 0, width, height, matrix, true);
 		// dibo: bei einer Rotation von bspw. 70 Grad entsteht eine Bitmap mit
-		// einer größeren Größe als width und height
+		// einer gr&#xfffd;&#xfffd;eren Gr&#xfffd;&#xfffd;e als width und height
 		// daher wird nochmal skaliert; sieht allerdings anders aus als im
 		// Original-Greenfoot :-(
 		// image = Bitmap.createScaledBitmap(image, width, height, true);

@@ -581,7 +581,7 @@ public class Actor {
 			Bitmap dummyImage = Bitmap.createBitmap(image.getAwtImage(), 0, 0,
 					width, height, matrix, true);
 			// dibo: bei einer Rotation von bspw. 70 Grad entsteht eine Bitmap
-			// mit einer größeren Größe als width und height: passt ideal!
+			// mit einer gr&#xfffd;&#xfffd;eren Gr&#xfffd;&#xfffd;e als width und height: passt ideal!
 			if (dummyImage.getWidth() > width
 					|| dummyImage.getHeight() > height) {
 				Point center = world.getCellCenterInPixels(x, y);
