@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+C:\Users\dibo\Documents\Projekte\Droidfoot\versions\eclipse-workspace-droidfoot\.metadata\.plugins\org.eclipse.jdt.core
+1422653715.index
+1991326949.index
+69447113.index
+991107142.index
+1482699388.index
+4225081290.index
+684622308.index

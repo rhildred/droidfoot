@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/speed"
+        android:actionViewClass="android.widget.SeekBar"
+        android:icon="@drawable/speed"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/speed"/>
+    <item
+        android:id="@+id/start_stop"
+        android:icon="@drawable/start"
+        android:showAsAction="ifRoom"
+        android:title="@string/start"/>
+    <item
+        android:id="@+id/reset"
+        android:icon="@drawable/reset"
+        android:showAsAction="ifRoom"
+        android:title="@string/reset"/>
+    <item
+        android:id="@+id/help"
+        android:title="@string/help"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"/>
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="scale"
+        android:summary="@string/scaleSummary"
+        android:title="@string/scaleTitle" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="speed"
+        android:summary="@string/speedSummary"
+        android:title="@string/speedTitle" />
+
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/orientationNames"
+        android:entryValues="@array/orientationValues"
+        android:key="orientation"
+        android:summary="@string/orientationSummary"
+        android:title="@string/orientationTitle" />
+
+    <EditTextPreference
+        android:defaultValue="@string/usernameDefault"
+        android:key="username"
+        android:summary="@string/usernameSummary"
+        android:title="@string/usernameTitle" />
+
+</PreferenceScreen>

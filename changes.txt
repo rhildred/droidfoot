@@ -1,0 +1,14 @@
+Version 1.0.1:
+
+- GreenfootImage: new constructor (String, int, Color, Color)
+- some little changes in Greenfoot.setWorld
+
+Version 2.0:
+- some bug fixes
+- class GreenfootSound implemented
+- class UserInfo implemented
+- the rotation of an Actor will now be considered when dealing with touch or collision detection
+- customizing the action bar and menu of the android player in the App-Activity class by setting appropriate attributes
+- example DFSnake changed (a highscore table has been integrated)
+
+

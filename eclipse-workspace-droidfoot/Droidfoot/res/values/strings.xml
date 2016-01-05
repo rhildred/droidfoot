@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Droidfoot</string>
+    <string name="help">Help</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="speed">Speed</string>
+    <string name="title_activity_help">Help</string>
+    <string name="no_help">Sorry, no help available!</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="scaleTitle">Scale</string>
+    <string name="scaleSummary">Turn on scaling to screen size</string>
+    <string name="speedTitle">Speed Slider</string>
+    <string name="speedSummary">Allow adjusting the speed</string>
+    <string name="orientationTitle">Screen Orientation</string>
+    <string name="orientationSummary">Configure screen orientation</string>
+    <string name="usernameTitle">Username</string>
+    <string name="usernameSummary">Choose the name for the highscore table</string>
+    <string name="usernameDefault">Default</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="orientationNames">
+        <item>always landscape</item>
+        <item>always portrait</item>
+        <item>automated switch</item>
+    </string-array>
+    <string-array name="orientationValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

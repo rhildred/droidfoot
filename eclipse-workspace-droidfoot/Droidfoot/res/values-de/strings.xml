@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Droidfoot</string>
+    <string name="help">Hilfe</string>
+    <string name="start">Start</string>
+    <string name="stop">Stopp</string>
+    <string name="reset">Neues Spiel</string>
+    <string name="speed">Geschwindigkeit</string>
+    <string name="title_activity_help">Hilfe</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="no_help">Es ist leider keine Hilfe vorhanden!</string>
+    <string name="scaleTitle">Skalierung</string>
+    <string name="scaleSummary">Skalierung auf Bildschirmgröße einschalten</string>
+    <string name="speedTitle">Geschwindigkeitsregler</string>
+    <string name="speedSummary">Anpassung der Geschwindigkeit erlauben</string>
+    <string name="orientationTitle">Bildschirmausrichtung</string>
+    <string name="orientationSummary">Bildschirmausrichtung festlegen</string>
+    <string name="usernameTitle">Name</string>
+    <string name="usernameSummary">Name für die Bestenliste wählen</string>
+    <string name="usernameDefault">Default</string>
+    <string name="settings">Einstellungen</string>
+
+    <string-array name="orientationNames">
+        <item>immer Landscape</item>
+        <item>immer Portrait</item>
+        <item>Automatischer Wechsel</item>
+    </string-array>
+    <string-array name="orientationValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
