@@ -165,6 +165,24 @@ public class Greenfoot {
 	}
 
 	/**
+	 * True if the mouse has been clicked (changed from a non-clicked state to
+	 * being clicked) on the given object. If the parameter is an Actor the
+	 * method will only return true if the mouse has been clicked on the given
+	 * actor. If there are several actors at the same place, only the top most
+	 * actor will receive the click. If the parameter is a World then true will
+	 * be returned if the mouse was clicked on the world background. If the
+	 * parameter is null, then true will be returned for any mouse click,
+	 * independent of the target clicked on.
+	 *
+	 * @param obj
+	 *            Typically one of Actor, World or null
+	 * @return True if the mouse has been cliked as explained above ... return is mousePressed() as a convenience for code that uses mouseClicked instead.
+	 */
+    public static boolean mouseClicked(Object obj) {
+        return mousePressed(obj);
+    }
+
+	/**
 	 * Play sound from a file. The following formats are supported: AIFF, AU and
 	 * WAV.
 	 * <p>
