@@ -539,6 +539,11 @@ public class Actor {
 		// being called when the object is added to the world...)
 		this.setLocation(x, y);
 	}
+    
+    public boolean atEdge(){
+        World world = this.getWorld();
+        return(x <= 0 || x >= world.getWidth() || y <= 0 || y >= world.getHeight());
+    }
 
 	/**
 	 * Checks whether the specified point (specified in pixel co-ordinates) is

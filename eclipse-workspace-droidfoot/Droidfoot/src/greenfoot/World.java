@@ -462,6 +462,14 @@ public class World {
 		GreenfootImage bg = new GreenfootImage(filename);
 		setBackground(bg);
 	}
+    
+    /**
+    * put text on the screen
+    **/
+    
+    public void setText(String sText, int x, int y){
+        this.getBackground().drawString(sText, x, y);
+    }
 
 	/**
 	 * Set the paint order of objects in the world. Paint order is specified by
