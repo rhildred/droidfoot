@@ -102,7 +102,7 @@ android {
 
 5) Rename the file/class DFTemplateActivity in folder src in the package being renamed in step 4 (bspw. SpaceInvadersActivity)
 
-6) Open the file AndroidManifest.xml and rename the package-attribute (second line) corresponding to the renaming in step 4 (e.g. package=“org.droidfoot.spaceinvaders“ )
+6) Open the file AndroidManifest.xml and rename the package-attribute (second line) corresponding to the renaming in step 4 (e.g. package="org.droidfoot.spaceinvaders" )
 
 7) Copy the java-files of your Greenfoot scenario into the package being renamed in step 4. Please note that you will have to edit all java-files to define the corresponding package-statement as the first statement (`package org.droidfoot.spaceinvaders;`).
 
