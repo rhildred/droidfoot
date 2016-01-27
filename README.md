@@ -85,21 +85,32 @@ public void act()
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tbWY_tOFpfY" frameborder="0" allowfullscreen></iframe>
 
 1) Copy-paste the eclipse android project DFTemplate to a new eclipse project called Space Invaders (in this example).
-2) Open Android studio and import the new eclipse project (SpaceInvaders in this example) in to a new Android Studio Project. Note* You may need to edit dFTemplate/build.gradle and droidfoot/build.gradle to have the latest compileSDKVersion
+
+2) Open Android studio and import the new eclipse project (SpaceInvaders in this example) in to a new Android Studio Project. 
+Note* You may need to edit dFTemplate/build.gradle and droidfoot/build.gradle to have the latest compileSDKVersion
+
 ```
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
 
 ```
+
 3) Open the file strings.xml in folder DFTemplate/src/main/res/values and replace the name DFTemplate by the name of your scenario (e.g. Space Invaders).
+
 4) Rename the package org.droidfoot.dftemplate in folder src (e.g. org.droidfoot.spaceinvaders) (>Refactor > Rename).
+
 5) Rename the file/class DFTemplateActivity in folder src in the package being renamed in step 4 (bspw. SpaceInvadersActivity)
+
 6) Open the file AndroidManifest.xml and rename the package-attribute (second line) corresponding to the renaming in step 4 (e.g. package=“org.droidfoot.spaceinvaders“ )
+
 7) Copy the java-files of your Greenfoot scenario into the package being renamed in step 4. Please note that you will have to edit all java-files to define the corresponding package-statement as the first statement (`package org.droidfoot.spaceinvaders;`).
+
 8) Eliminate all errors in your java-files which can occur due to the differences between the original and the Android Greenfoot class library (see chapter 2).
+
 9) Open the activity file being renamed in step 5, remove the comment in front the statement in method onCreate and assign the class object of your world class to the variable
 DroidfootActivity.worldClass (DroidfootActivity.worldClass = SpaceInvadersWorld.class;
+
 10) Copy the folders images and sounds which contain the images and sounds of your Greenfoot scenario into the folder DFTemplate/src/main/assets. If you have done this correctly, you will see the assets in android studio.
 
 ##Making the package
