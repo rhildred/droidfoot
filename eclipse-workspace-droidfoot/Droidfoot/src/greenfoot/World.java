@@ -471,6 +471,10 @@ public class World {
         this.getBackground().drawString(sText, x, y);
     }
 
+    public void showText(String sText, int x, int y){
+        this.getBackground().drawString(sText, x, y);
+    }
+
 	/**
 	 * Set the paint order of objects in the world. Paint order is specified by
 	 * class: objects of one class will always be painted on top of objects of
